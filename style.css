@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    color: lightskyblue;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background-image: url("https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight:300px;
+    text-align: center;
+    background-color:lightblue;
+    color: rgb(3, 3, 53);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background-image: url("https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg");
+background-size:cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.logo{
+    font-size: 70px;
+    font-weight:700;
+    color:white;
+}
+
+.button{
+    background-color: black;
+    color: blanchedalmond;
+    height: 60px;
+    width: 140px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.button{
+    background-color: black;
+    color: blanchedalmond;
+    height: 60px;
+    width: 140px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.input{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#input_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#submit{
+     margin-left: 15px;
+     margin-top: 10px;
+}
+#message{
+    display: none;
+    font-size: 1.5em;
+    background-color: blueviolet;
+    color: black;
+    padding: 5px 15px;
+
+}
+#lives-text{
+    font-size: 2em;
+    font-weight: 200;
+    color: orangered;
+}
